@@ -1,5 +1,5 @@
 baseURL= "/"
-languageCode= "fr_FR"
+languageCode= "fr-FR"
 title= "hugo quickstart v2"
 paginate = 5
 copyright = "Tous droits réservés - 2018"
@@ -9,7 +9,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
   description = "Bien démarrer avec Hugo"
   metadescription = "Utilisé dans la balise meta 'description' pour l’accueil et les pages d’index, faute de quoi c'est l’entrée 'description' du front matter de la page qui sera utilisé."
-  cover = ""
+  cover = "/img/darius-soodmand-116253.jpg"
+	#cover = "/static/img/darius-soodmand-116253.jpg"
+	#cover = "/src/img/darius-soodmand-116253.jpg"
+	#cover = "images/darius-soodmand-116253.jpg"
   author = "Benjamin SICARD"
   authorlocation = "Paris, France"
   authorwebsite = ""
